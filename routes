@@ -1,0 +1,34 @@
+/                                  HomeR              GET
+
+/static                            StaticR            Static getStatic
+
+/login                             LoginR             GET    POST
+/perfil/#UsuarioId                 PerfilR            GET
+/admin                             AdminR             GET
+/fail                              FailR              GET
+/logout                            LogoutR                   POST
+
+/usuario/cadastro                  UsuarioR           GET    POST
+/usuario/listagem                  ListaUsuarioR      GET
+
+
+/portifolio/cadastro               PortifolioR        GET    POST
+/portifolio/listagem               ListaPortifolioR   GET
+
+
+/evento/cadastro                   EventoR            GET    POST
+/evento/listagem                   ListaEventoR       GET
+/evento/eventolist                 EventosR           GET
+/evento/exclusao/#EventoId         DeletaEventoR             POST
+
+
+/noticia/cadastro                  NoticiaR           GET    POST
+/noticia/listagem                  ListaNoticiaR      GET
+/noticia/noticialist               NoticiasR          GET
+/noticia/exclusao/#NoticiaId       DeletaNoticiaR            POST
+
+
+/download/cadastro                 DownloadR          GET    POST
+/download/listagem                 ListaDownloadR     GET
+/download/downloadlist             DownloadsR         GET
+/download/exclusao/#DownloadId     DeletaDownloadR           POST
