@@ -1,0 +1,37 @@
+name:               portifolio
+version:            0.0.0
+cabal-version:      >= 1.8
+build-type:         Simple
+extra-source-files: routes
+
+executable          portifolio
+  main-is:          Main.hs
+  other-modules:    Application
+                    Foundation
+                    
+                    Handler.Usuario
+                    Handler.Portifolio
+                    Handler.Evento
+                    Handler.Noticia
+                    Handler.Download
+                    Handler.Widget
+
+
+  ghc-options:      -Wall -fwarn-tabs -O2
+
+  build-depends:  base
+                , yesod                         
+                , yesod-auth
+                , yesod-core
+                , yesod-static
+                , yesod-form
+                , text
+                , time
+                , persistent
+                , persistent-postgresql
+                , monad-logger
+                , shakespeare
+                , bytestring
+                , blaze-html
+
+  ghc-options:    -threaded -O2 -rtsopts -with-rtsopts=-N
